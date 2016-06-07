@@ -1,29 +1,36 @@
 p{
   font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
-	line-height: 1.4em;  
+	margin-top: 0px;
 }
 
 h1{
   font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20pt bold;
-	line-height: 1.4em;  
+	line-height: 1;  
+	margin-bottom: 0px;
+	
+	
 }
 h2{
   font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16pt;
 	line-height: 1.4em; 
 	border-bottom: 2px solid black
+	
 }
 h3{
   font-family: 'Source Sans Pro', sans-serif;
-	font-size: 14pt;
+	font-size: 12pt;
 	line-height: 1.4em;  
+	margin-bottom: 5px;
+	margin-top: 20px;
 }
 h4{
   font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt bold
-	line-height: 1.4em;  
+	margin-bottom: 1px;
+	margin-top: 5px;
 
 }
 ul{

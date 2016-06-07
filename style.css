@@ -17,7 +17,7 @@ h2{
   font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16pt;
 	line-height: 1.4em; 
-	border-bottom: 2px solid black
+	border-bottom: 2px solid black;
 	
 }
 h3{
@@ -29,12 +29,8 @@ h3{
 }
 h4{
   font-family: 'Source Sans Pro', sans-serif;
-<<<<<<< HEAD
 	font-size: 13pt;
 	font-weight: 600;
-=======
-	font-size: 11pt bold;
->>>>>>> origin/master
 	margin-bottom: 1px;
 	margin-top: 5px;
 

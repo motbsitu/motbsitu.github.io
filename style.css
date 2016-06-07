@@ -1,5 +1,33 @@
 p{
-  font-family: 'Enriqueta', Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	line-height: 1.4em;  
+}
+
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20pt bold;
+	line-height: 1.4em;  
+}
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16pt;
+	line-height: 1.4em; 
+	border-bottom: 2px solid black
+}
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14pt;
+	line-height: 1.4em;  
+}
+h4{
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt bold
+	line-height: 1.4em;  
+
+}
+ul{
+  font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	line-height: 1.4em;  
 }

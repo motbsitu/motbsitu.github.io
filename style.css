@@ -7,7 +7,12 @@ header {
   background-color: #194F50;
   color: #ffffff;
 }
-
+.header-link, .footer-link{
+  color: #ffffff;
+}
+.header-link:hover, .footer-link:hover {
+  background: #222;
+}
 p{
   font-size: 11pt;
   margin-top: 0px;
@@ -20,7 +25,8 @@ h1{
 	margin-bottom: 0px;
 }
 a {
-  color: #ffffff;
+  color: #194F50;
+  text-decoration: none;
 }
 h2{
 	font-size: 16pt;
@@ -58,7 +64,8 @@ footer{
 }
 a#pdf {
   display: block;
-  float: right;
+  float:right;
+  float: inline-end;
   background: #666;
   color: white;
   padding: 6px 50px 6px 12px;

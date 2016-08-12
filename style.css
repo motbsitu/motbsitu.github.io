@@ -2,10 +2,16 @@ html, header, p, h1, h2, h3, h4, ul{
   font-family: 'Source Sans Pro', sans-serif;
 }
 header {
-  padding: 10px 10px 10px 10px;
-  border: 2px 2px 2px 2px;
+  display:block;
+  margin: 0 auto 0 auto;
+  box-sizing: padding-box;
+  padding: 20px;
   background-color: #194F50;
   color: #ffffff;
+}
+header img{
+  float:left;
+  padding-right: 10px;
 }
 .header-link, .footer-link{
   color: #ffffff;
@@ -17,7 +23,10 @@ p{
   font-size: 11pt;
   margin-top: 0px;
 }
-
+section{
+  margin-left: 15px;
+  margin-right: 15px;
+}
 h1{
   font-size: 20pt;
 	font-weight: 700;
@@ -27,6 +36,9 @@ h1{
 a {
   color: #194F50;
   text-decoration: none;
+}
+a:hover {
+  background: #817e7e;
 }
 h2{
 	font-size: 16pt;
@@ -74,4 +86,7 @@ a#pdf {
 }
 a#pdf:hover {
   background: #222;
+}
+.italics {
+  font-style: italic;
 }

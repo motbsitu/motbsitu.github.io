@@ -1,42 +1,69 @@
-p{
+html, header, p, h1, h2, h3, h4, ul{
   font-family: 'Source Sans Pro', sans-serif;
-	font-size: 11pt;
-	margin-top: 0px;
+}
+header {
+  padding: 10px 10px 10px 10px;
+  border: 2px 2px 2px 2px;
+  background-color: #194F50;
+  color: #ffffff;
+}
+
+p{
+  font-size: 11pt;
+  margin-top: 0px;
 }
 
 h1{
-  font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20pt;
+  font-size: 20pt;
 	font-weight: 700;
-	line-height: 1;  
+	line-height: 1;
 	margin-bottom: 0px;
-	
-	
+}
+a {
+  color: #ffffff;
 }
 h2{
-  font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16pt;
-	line-height: 1.4em; 
+	line-height: 1.4em;
 	border-bottom: 2px solid black;
-	
+
 }
+
 h3{
-  font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
-	line-height: 1.4em;  
+	line-height: 1.4em;
+  margin-left: 0px;
 	margin-bottom: 5px;
 	margin-top: 20px;
 }
 h4{
-  font-family: 'Source Sans Pro', sans-serif;
 	font-size: 13pt;
 	font-weight: 600;
-	margin-bottom: 1px;
+  margin-left: 0px;
+  margin-bottom: 1px;
 	margin-top: 5px;
+
 
 }
 ul{
-  font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
-	line-height: 1.4em;  
+	line-height: 1.4em;
+}
+footer{
+  padding: 10px 10px 10px 10px;
+  border: 2px 2px 2px 2px;
+  background-color: #194F50;
+  color: #ffffff;
+}
+a#pdf {
+  display: block;
+  float: right;
+  background: #666;
+  color: white;
+  padding: 6px 50px 6px 12px;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+a#pdf:hover {
+  background: #222;
 }

@@ -24,8 +24,8 @@ p{
   margin-top: 0px;
 }
 section{
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: auto 15px auto 15px;
+  
 }
 h1{
   font-size: 20pt;
@@ -50,27 +50,21 @@ h2{
 h3{
 	font-size: 12pt;
 	line-height: 1.4em;
-  margin-left: 0px;
-	margin-bottom: 5px;
-	margin-top: 20px;
+  margin: auto auto 5px auto;
   float: right;
 }
 h4{
 	font-size: 13pt;
 	font-weight: 600;
-  margin-left: 0px;
-  margin-bottom: 1px;
-	margin-top: 5px;
-
-
+  margin: 5px auto 1px auto;
 }
 ul{
 	font-size: 11pt;
 	line-height: 1.4em;
 }
 footer{
-  padding: 10px 10px 10px 10px;
-  border: 2px 2px 2px 2px;
+  padding: 10px;
+  border: 10px;
   background-color: #194F50;
   color: #ffffff;
 }
